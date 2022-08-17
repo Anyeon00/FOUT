@@ -2,46 +2,73 @@
 <html>
 <head>
   <title>자유공방토론포럼</title>
+  <link rel="stylesheet" href="main.css"> 
+  <style>
+    @media (min-width:900px){
+      #llngn{
+        display:grid;
+        grid-template-columns: 180px 1fr;
+    }
+      .gifnnotice {
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+      }
+
+    }
+
+
+    li{
+      list-style:none;
+    }
+    .gifnnotice div ul li{
+      padding :5px;
+      font-size:130%;
+    }
+
+  </style>
 </head>
 
-<body>
-  <h1>자유공방토론포럼</h1>
-  <h2>The Forum of Unconventinal Thinking</h2>
-  " 본 토론장은 사회통념에 벗어나는 주제와 발언도 도덕적 규범에 어긋나지 않는다면 존중합니다.<br>
-  주어진 주제에 대하여 자유롭게 찬/반 입론을 게재하고 각 입론마다 댓글을 통해 자유롭게 반박하세요. "<br>
-  <br><img src="FoutTitleimage.gif" width="30%"><br>
-  <strong>**************공지**************</strong><br>
-  ※ 경어사용이 원칙이며 미준수 게시글 또는 악성 게시글은 관리자 판단하에 조치<br>
-  ※ 논리가 배제된 발언 또는 감정적인 발언도 마찬가지로 관리자 판단하에 조치<br>
-  ※ 개발자 역량으로 인해 다소 초라할 수 있음 지속적인 업데이트 예정<br>
-  (╥﹏╥)게시판 미구현으로 인해 입론부터 댓글창을 통해 작성<br>
-  (╥﹏╥)찬반토론 게시판 반대측 댓글창이 반대 문구 위에 출력되는 오류<br><br>
+  <div class="main">
+    <h1><a href="home.html">자유공방토론포럼</a></h1>
+    <h2><a href="home.html">The Forum of Unconventinal Thinking</a></h2>
+    <div>
+      " 본 토론장은 사회통념에 벗어나는 주제와 발언도 도덕적 규범에 어긋나지 않는다면 존중합니다.<br>
+      주어진 주제에 대하여 자유롭게 찬/반 입론을 게재하고 각 입론마다 댓글을 통해 자유롭게 반박하세요. "<br>
+    </div>
+  </div>
 
-  <h2>찬반토론</h2>
-  <ul>
-    <li><a href="자살은 개인의 선택으로 존중해주어야 하는가.html"><strng>자살은 개인의 선택으로 존중해주어야 한다</strong></a></li>
-    <li><a href="종교는 존중되어야 하는가.html"><strng>종교는 존중되어야 하는가</strong></a></li>
-    <li><a href="독립유공자 후손에게 혜택을 주는 것이 옳은가.html"><trong>독립유공자 후손에게 혜택을 주는 것이 옳은가</strong></a></li>
-    <li><stong><a href="MBTI 심리학이 가지는 목적에 부합하는 가치가 존재하는가.html">MBTI: 심리학이 가지는 목적에 부합하는 가치가 존재하는가</a></strong></li>
-    <li><a href="로봇이 감정을 가질 수 있을까.html">로봇이 감정을 가질 수 있을까</a></li>
-    <li><stong><a href="데스노트 키라는 정의인가.html">데스노트: 키라는 정의인가</a></strong></li>
+
+
+<div id="llngn">
+  
+  <ul class="leftlist">
+    <li><a href="토론게시판.html">토론게시판</a></li>
+    <li><a href="자유게시판.html">자유게시판</a></li>    
+    <li><a href="주제 제안 게시판.html">주제제안 게시판</a></li>
+    <li><a href="건의사항.html">건의사항</a></li>
+    <li><a href="웹사이트제작과정.html">웹사이트제작과정</a></li>
   </ul>
 
+  
+  <div class="gifnnotice"> 
+    <img src="FoutTitleimage.gif" width="80%" style="padding:40px; padding-right:0; padding-top:40px">
+    <div>
+      <div style="font-size: 200%; margin-top:20px; padding-top:35px">공지</div>   
+      <ul style="padding-left:0">
+        <li>※ 경어사용이 원칙이며 미준수 게시글 또는 악성 게시글은 관리자 판단하에 조치</li>
+        <li>※ 논리가 배제된 발언 또는 감정적인 발언도 마찬가지로 관리자 판단하에 조치</li>
+        <li>※ 개발자 역량으로 인해 다소 초라할 수 있음 지속적인 업데이트 예정</li>
+        <li>(╥﹏╥)게시판 미구현으로 인해 입론부터 댓글창을 통해 작성</li>
+        <li>(╥﹏╥)찬반토론 게시판 반대측 댓글창이 반대 문구 위에 출력되는 오류</li>
+      </ul>  
+    </div>
+  </div>
+</div>
 
-  <h2>자유토론</h2>
-  <ul>
-    <li><a href="너는 누구인가.html"><strng>"너는 누구인가"</a></strong></li>
-    <li><a href="정의란 무엇인가.html"><strng>정의란 무엇인가</strong></a></li>
-    <li><a href="자아실현의 욕구는 왜 존재하는가.html"><strng>자아실현의 욕구는 왜 존재하는가</a></strong></li>
-  </ul>
-  <br><br><br><br>
-
-
-<h2><a href="자유게시판.html">자유게시판</a></h2><br>
-<h2><a href="주제 제안 게시판.html">주제제안 게시판</a></h2><br>
-<h2><a href="건의사항.html">건의사항</a></h2><br>
-
-
-문의: seluo65@naver.com
+  <div class="bot">
+    <div style="padding:15px; padding-left:0">
+      문의: seluo65@naver.com      _Leehyeongseok
+    </div>
+  </div>
 </body>
 </html>

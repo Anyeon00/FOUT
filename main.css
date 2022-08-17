@@ -1,0 +1,49 @@
+/* main 상단 페이지 제목 css */
+.main {
+    text-align: center;
+    padding-bottom : 10px;
+    border-bottom: solid gray 3px;
+  }
+  .main a{
+    text-decoration:none;
+    color:black;
+  }
+  .main h1 {
+    font-size : 290%;
+    margin: 10px;
+    text-decoration:none;
+    color:black;
+  }
+  .main h2 {
+    font-size: 170%;
+    margin : 10px;
+  }
+  .main div{
+    padding-top : 15px;
+    font-size: 110%;
+  }
+  /* leftlist 왼쪽 목차 css */
+  .leftlist{
+    padding:0;
+    padding-top: 30px;
+    border-right : solid gray 3px;
+    margin:0;
+    padding-bottom: 200px;
+
+    }
+   #llngn .leftlist li{
+      padding-bottom : 40px;
+      font-size :130%;
+    }
+    #llngn .leftlist a{
+        text-decoration:none;
+        color:green;
+    }
+    #llngn{
+        display:grid;
+        grid-template-columns: 180px 1fr;
+      }
+/* bot 최하단 문구 css*/
+    .bot{
+        border-top: solid 1px gray;
+    }
